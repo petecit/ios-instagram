@@ -107,5 +107,12 @@ class PostsViewController: UIViewController, UITableViewDelegate, UITableViewDat
         cell.captionLabel.text = post.caption
         return cell
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let dvc = segue.destination as? DetailViewController
+        if let cell = sender as! PostCell? {
+            dvc?.post = posts[(cell.indexPath?.row)!]
+        }
+    }
 
 }
