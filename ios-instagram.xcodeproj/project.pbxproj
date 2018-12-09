@@ -81,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				D0F0A59421BBB34000B5B3FD /* Model */,
-				D0F0A59321BBB30D00B5B3FD /* Views */,
+				D0F0A59321BBB30D00B5B3FD /* Controller */,
 				D0217B0021B230B200BCA4E2 /* Main.storyboard */,
 				D0217AFC21B230B200BCA4E2 /* AppDelegate.swift */,
 				D0217B0321B230B300BCA4E2 /* Assets.xcassets */,
@@ -91,7 +91,7 @@
 			path = "ios-instagram";
 			sourceTree = "<group>";
 		};
-		D0F0A59321BBB30D00B5B3FD /* Views */ = {
+		D0F0A59321BBB30D00B5B3FD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				D09AE5D521B267D700E9A5E3 /* PostsViewController.swift */,
@@ -99,7 +99,7 @@
 				D03418B521BB9A6700824867 /* SelectPhotoViewController.swift */,
 				D0F0A59521BBB36D00B5B3FD /* DetailViewController.swift */,
 			);
-			path = Views;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		D0F0A59421BBB34000B5B3FD /* Model */ = {

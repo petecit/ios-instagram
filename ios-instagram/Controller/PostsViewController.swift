@@ -54,7 +54,6 @@ class PostsViewController: UIViewController, UITableViewDelegate, UITableViewDat
         postsTableView.rowHeight = 280
         
         // retrieve posts and update table view
-        // Retrieve posts and update table view
         fetchPostsData()
         postsTableView.reloadData()
     }
